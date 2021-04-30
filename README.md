@@ -17,10 +17,10 @@ To reproduce the experiment results, execute `main.py` in directory `experiments
 
 We store all experiment data in directory `data/data_cleaned` [Data](https://github.com/PatrickCrossia/Health_Indicator_Prediction/tree/master/data/data_cleaned), the stats information of data can be obtained by excuting `stats/stats_data.py`.
 
-To represent the results of RQ1, run `stats.py` in directory `experiments`, the results (Table 6-9) are stored in `result_stats/stats.csv`.
+To represent the results of RQ1, run `stats.py` in directory `RQs/experiments`, the results (Table 6-9) are stored in `RQs/result_stats/stats.csv`.
 
-To represent the results of RQ2, run `internal_feature_select.py` in directory `validation`, to get result in (Table 11), note that our methods use a modified version of `sklearn.tree.export_text`, please see comments in code for details.
+To represent the results of RQ2, run `internal_feature_select.py` in directory `RQs/validation`, to get result in (Table 11), note that our methods use a modified version of `sklearn.tree.export_text`, please see comments in code for details.
 
-To represent the results of RQ3, use the stats results generated in `result_stats/stats.csv` since its information are already collected from `stats.py` (Table 12-13).
+To represent the results of RQ3, use the stats results generated in `RQs/result_stats/stats.csv` since its information are already collected from `stats.py` (Table 12-13).
 
-For results of predicting mid-lifecycle in Discussion section (Table 14), run `runner.py` in directory `experiments`, and set related data range into `N-24`, please see comments in code for details.
+For results of predicting mid-lifecycle in Discussion section (Table 14), run `runner.py` in directory `RQs/experiments`, and set related data range into `N-24`, please see comments in code for details.
