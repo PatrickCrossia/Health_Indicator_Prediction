@@ -1,7 +1,7 @@
 # Health Indicator Prediction
 [Data](https://github.com/PatrickCrossia/Health_Indicator_Prediction/tree/master/data/data_cleaned) and experiment code for replication of project health indicator study.
 
-The [paper](https://arxiv.org/pdf/2006.07240.pdf) is  submitted to EMSE 2021. 3 RQs asked in the paper can be answered here.
+The [paper](https://arxiv.org/pdf/2006.07240.pdf) has been submitted to EMSE 2021. 3 RQs asked in the paper can be answered here.
 
 ## Abstract
 
